@@ -2,13 +2,10 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 
 
-const ShowLang = (props) => {
-
-    console.log('xxx');
+const ShowLang = () => {
 
     const language = useSelector(state => state.changeLanguage.language);
 
-    console.log('language', language);
     return (
         <div>
             {language === 'vi' ?
