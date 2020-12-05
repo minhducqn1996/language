@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.language-vi {
+  background-image: linear-gradient(to right, red, yellow);
+  margin: auto;
+  width: 300px;
+}
+
+.language-eng {
+  background-image: linear-gradient(to right, red, blue);
+  margin: auto;
+  width: 300px;
+}
